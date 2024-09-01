@@ -4,8 +4,9 @@ body {
 	overflow: hidden;
 	height: 100%;
 	margin: 0;
-  }
-  body::before {
+}
+
+body::before {
 	content: "";
 	background: rgba(255, 255, 255, 0.1);
 	position: absolute;
@@ -13,11 +14,11 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-  }
-  
-  .homepage {
+}
+
+.homepage {
 	-webkit-backdrop-filter: blur(5px);
-			backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
 	text-align: center;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 	position: absolute;
@@ -25,56 +26,62 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;
-  }
-  
-  .main {
+}
+
+.main {
 	display: flex;
 	height: 100%;
 	justify-content: center;
 	align-items: center;
-  }
-  .main .welcome {
+}
+
+.main .welcome {
 	background-color: rgba(0, 0, 0, 0.15);
 	padding: 30px;
 	border-radius: 25px;
 	width: 200px;
 	height: 150px;
-  }
-  .main .welcome img {
+}
+
+.main .welcome img {
 	filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
 	transform: scale(4) rotate(20deg);
 	width: 50px;
 	height: 50px;
-  }
-  .main .contact a {
+}
+
+.main .contact a {
 	padding: 2px 5px 2px 5px;
 	background: rgba(0, 0, 0, 0.35);
 	border-radius: 25px;
 	text-decoration: none;
 	color: white;
-  }
-  .main .socials {
+}
+
+.main .socials {
 	background-color: rgba(0, 0, 0, 0.15);
 	border-radius: 25px;
 	min-width: 56px;
 	max-width: 56px;
 	margin: 0px 25px 0px 0px;
-  }
-  .main .socials img {
+}
+
+.main .socials img {
 	margin: 10px 0px 10px 0px;
 	width: 32px;
 	height: 32px;
 	border-radius: 25%;
 	filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
 	transition: 0.5s;
-  }
-  .main .socials img:hover {
+}
+
+.main .socials img:hover {
 	transition: 0.5s;
 	width: 48px;
 	height: 48px;
-  }
-  
-  footer {
+}
+
+footer {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -83,8 +90,9 @@ body {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-  }
-  footer p {
+}
+
+footer p {
 	text-align: center;
 	margin-top: 0;
-  }
+}

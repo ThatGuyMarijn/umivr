@@ -1,5 +1,5 @@
 body {
-	background: url("../images/background.webp") no-repeat center fixed;
+	background: url("../images/couple.webp") no-repeat center fixed;
 	background-size: cover;
 	overflow: hidden;
 	height: 100%;
@@ -17,8 +17,6 @@ body::before {
 }
 
 .homepage {
-	-webkit-backdrop-filter: blur(5px);
-	backdrop-filter: blur(5px);
 	text-align: center;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 	position: absolute;
@@ -35,7 +33,7 @@ body::before {
 	align-items: center;
 }
 
-.main .welcome {
+.welcome {
 	background-color: rgba(0, 0, 0, 0.15);
 	padding: 30px;
 	border-radius: 25px;
@@ -43,14 +41,13 @@ body::before {
 	height: 150px;
 }
 
-.main .welcome img {
-	filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+.welcome img {
 	transform: scale(4) rotate(20deg);
 	width: 50px;
 	height: 50px;
 }
 
-.main .contact a {
+.contact a {
 	padding: 2px 5px 2px 5px;
 	background: rgba(0, 0, 0, 0.35);
 	border-radius: 25px;
@@ -58,7 +55,7 @@ body::before {
 	color: white;
 }
 
-.main .socials {
+.socials {
 	background-color: rgba(0, 0, 0, 0.15);
 	border-radius: 25px;
 	min-width: 56px;
@@ -66,19 +63,23 @@ body::before {
 	margin: 0px 25px 0px 0px;
 }
 
-.main .socials img {
+.socials img {
 	margin: 10px 0px 10px 0px;
 	width: 32px;
 	height: 32px;
 	border-radius: 25%;
-	filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
 	transition: 0.5s;
 }
 
-.main .socials img:hover {
-	transition: 0.5s;
+.socials img:hover {
 	width: 48px;
 	height: 48px;
+}
+
+.blurred {
+	filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
 }
 
 footer {

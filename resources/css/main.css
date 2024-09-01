@@ -1,5 +1,5 @@
 body {
-	background: url("resources/images/background.webp") no-repeat center fixed;
+	background: url("/resources/images/background.webp") no-repeat center fixed;
 	background-size: cover;
 	overflow: hidden;
 	height: 100%;

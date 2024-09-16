@@ -66,6 +66,8 @@ body::before {
 	border-radius: 25px;
 	text-decoration: none;
 	color: white;
+	z-index: 1;
+	position: absolute;
 }
 
 .socials {

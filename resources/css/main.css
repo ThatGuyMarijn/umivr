@@ -67,7 +67,7 @@ body::before {
 	text-decoration: none;
 	color: white;
 	z-index: 1;
-	position: absolute;
+	position: relative;
 }
 
 .socials {

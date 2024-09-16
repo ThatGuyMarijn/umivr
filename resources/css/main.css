@@ -1,4 +1,8 @@
 body {
+	background-image: url("../images/background.webp"); 
+	background-repeat: no-repeat; 
+	background-position: center center; 
+	background-attachment: fixed; 
 	background-size: cover;
 	overflow: hidden;
 	height: 100%;
@@ -37,13 +41,23 @@ body::before {
 	padding: 30px;
 	border-radius: 25px;
 	width: 200px;
-	height: 150px;
+	height: auto;
+	margin: 0 auto;
 }
 
 .welcome img {
 	transform: scale(4) rotate(20deg);
 	width: 50px;
 	height: 50px;
+}
+
+.sponsor {
+	background-color: rgba(0, 0, 0, 0.15);
+	padding: 30px;
+	border-radius: 25px;
+	width: 380px;
+	height: auto;
+	margin-top: 25px;
 }
 
 .contact a {
@@ -60,6 +74,7 @@ body::before {
 	min-width: 56px;
 	max-width: 56px;
 	margin: 0px 25px 0px 0px;
+	height: 395px;
 }
 
 .socials img {
